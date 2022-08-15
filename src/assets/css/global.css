@@ -1,6 +1,7 @@
 /* Varíaveis */
 
 :root {
+    --header-text: #565656;
     --cor1: #791b78;
     --cor2: #9a4b99;
     --cor3: #bc7bbb;
@@ -9,4 +10,46 @@
 }
 
 
+/* Classes globais que podem ser reutilizadas */
+
+.centralizado {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
 /* Header */
+
+.header {
+    height: 80px;
+}
+
+.header-est {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#logo-header {
+    height: 35px;
+    cursor: pointer;
+}
+
+#nav-header ul {
+    gap: 8px;
+    display: flex;
+}
+
+#nav-header ul li a {
+    transition: 0.3s;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1.3em;
+    color: var(--header-text)
+}
+
+#nav-header ul li a:hover {
+    color: white;
+    background: var(--cor2);
+}
