@@ -24,6 +24,9 @@
         </nav>
       </div>
     </header>
+    <main class="main">
+      <RouterView />
+    </main>
   </div>
 </template>
 

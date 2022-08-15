@@ -10,9 +10,10 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
   faCartShopping,
   faMagnifyingGlass,
+  faCartArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faCartShopping, faMagnifyingGlass);
+library.add(faCartShopping, faMagnifyingGlass, faCartArrowDown);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
